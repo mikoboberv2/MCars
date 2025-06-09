@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>MCars</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="../../IMG/Logo.png">
+            <p class="Main-text"><span id="Shop-text">Sklep</span> Internetowy</p>
+            <button>Zaloguj sie</button>
+        </header>
+        <ul id="menu">
+            <li><a href="../../Index.html">Strona główna</a></li>
+            <li><a href="../Coupe.html">Coupe</a></li>
+            <li><a href="../Sedan.html">Sedany</a></li>
+            <li style="padding: 0px; width: 110px;">
+                <ul>
+                    <li class="menu-visible"><a href="#">Sportowe</a></li>
+                    <li class="menu-unvisible"><a href="../Sbmw.html">BMW</a></li>
+                    <li class="menu-unvisible"><a href="../SPorshe.html">Porshe</a></li>
+                    <li class="menu-unvisible"><a href="../SFerrari.html">Ferrari</a></li>
+                </ul>
+            </li>
+            <li style="margin-left: 42px;"><a class="a-menu" href="../Galeria.html">Galeria</a></li>
+        </ul>
+        <main id="main-offer">
+            <div class="offer-top">
+                <a href="../SPorshe.html"><img class="icon-back" src="../../IMG/BackIcon.png"></a>
+            </div>
+            <div class="offer-main-info">
+                <div id="images-offer">
+                    <button class="btn-offer-main-img" id="left-arrow" onclick="swipeLeft()"><img class="arrow" src="../../IMG/arrowLeft.png"></button>
+                    <img src="../../IMG/Porsche911GT3RS.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs2.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs3.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs4.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs5.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs6.jpg" class="offer-main-img">
+                    <img src="IMG/PorscheGt3Rs7.jpg" class="offer-main-img">
+                    <button class="btn-offer-main-img" id="right-arrow" onclick="swipeRight()"><img class="arrow" src="../../IMG/arrowRight.png"></button>
+                </div>
+                <div id="offer-main-info-text-box">
+                    <h1 class="offer-name-car">Porsche - 911 GT3 RS (2022)</h1>
+                    <div class="box-sell-offer-categories">
+                    <div>Używany</div>
+                    <div>Sport</div>
+                    <div>B-6</div>
+                    </div>
+                    <h2>1 499 900<span>PLN</span></h2>
+                    <a href="../FormAskForOffer.html"><button class="ask-for-offer" onclick="formNameCar()">Zapytaj o ofertę</button></a>
+                    <h4>Potrzebujesz finansowania?</h4>
+                    <a href="../FormCheckForFinance.html"><button class="check-finanse">Sprawdź Finansowanie</button></a>
+                </div>
+            </div>
+            <div class="offer-all-images">
+                <img src="../../IMG/Porsche911GT3RS.jpg" class="offer-all-images-img offer-all-images-img-selected">
+                <img src="IMG/PorscheGt3Rs2.jpg" class="offer-all-images-img">
+                <img src="IMG/PorscheGt3Rs3.jpg" class="offer-all-images-img">
+                <img src="IMG/PorscheGt3Rs4.jpg" class="offer-all-images-img">
+                <img src="IMG/PorscheGt3Rs5.jpg" class="offer-all-images-img">
+                <img src="IMG/PorscheGt3Rs6.jpg" class="offer-all-images-img">
+                <img src="IMG/PorscheGt3Rs7.jpg" class="offer-all-images-img">
+            </div>
+            <hr>
+            <h2>Najważniejsze</h2>
+            <div id="offer-important">
+                <div class="important-box">
+                    <img class="important-box-icon" src="../../IMG/roadIcon.png">
+                    <h6>Przebieg</h6>
+                    <h5>15 400 km</h5>
+                </div>
+                <div class="important-box">
+                    <img class="important-box-icon" src="../../IMG/EngineIcon.png">
+                    <h6>Pojemność Silnika</h6>
+                    <h5>3 996 cm3</h5>
+                </div>
+                <div class="important-box">
+                    <img class="important-box-icon" src="../../IMG/SpeedometerIcon.png">
+                    <h6>Moc</h6>
+                    <h5>525 KM</h5>
+                </div>
+                <div class="important-box">
+                    <img class="important-box-icon" src="../../IMG/GearboxIcon.png">
+                    <h6>Skrzynia biegów</h6>
+                    <h5>Automatyczna</h5>
+                </div>
+            </div>
+            <hr>
+            <h2>Opis</h2>
+            <div id="offer-description">
+                <p>Wyposażenie dodatkowe :</p>
+                <p>G7 Ice Grey Metallic </p>
+                <p>56R 20-/21-calowe kute, lekkie obręcze GT3 RS z magnezu </p>
+                <p>1NC Obręcze lakierowane na kolor Pyro Red</p>
+                <p>44 Pakiet wykończenia wnętrza Weissach z rozszerzonym zestawem elementówn ze skóry i materiału Race-Tex, kolory: </p>
+                <p>czarny / Guards Red </p>
+                <p>Q1K Fotele w pełni kubełkowe</p>
+                <p>P70 Pakiet Weissach </p>
+                <p>6A8 Pakiet Club Sport z dodatkową, dopuszczoną do użytku w ruchu drogowym gaśnicą 1 kg</p>
+            </div>
+            <hr>
+            <h2>Specyfikacja</h2>
+            <div id="offer-specification">
+                <div class="offer-specification-box">
+                    <div class="offer-specification-box-text">Marka pojazdu</div>
+                    <div class="offer-specification-box-text">Porsche</div>
+                </div>
+                <div class="offer-specification-box">
+                    <div class="offer-specification-box-text">Model pojazdu</div>
+                    <div class="offer-specification-box-text">GT3 RS</div>
+                </div>
+                <div class="offer-specification-box">
+                    <div class="offer-specification-box-text">Kolor</div>
+                    <div class="offer-specification-box-text">Biały</div>
+                </div>
+                <div class="offer-specification-box">
+                    <div class="offer-specification-box-text">Rok produkcji</div>
+                    <div class="offer-specification-box-text">2022</div>
+                </div>
+                <div class="offer-specification-box">
+                    <div class="offer-specification-box-text">Typ nadwozia</div>
+                    <div class="offer-specification-box-text">Coupe</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="social-media">
+                <div class="platform"><img class="icon-social" src="../../IMG/Facebook.webp"><a href="https://www.facebook.com">Facebook</a></div>
+                <div class="platform"><img class="icon-social" src="../../IMG/Youtube.png"><a href="https://www.facebook.com">YouTube</a></div>
+                <div class="platform"><img class="icon-social" src="../../IMG/instagram.png"><a href="https://www.instagram.com/">Instagram</a></div>
+                <div class="platform"><img class="icon-social" src="../../IMG/Twitter.webp"><a href="https://x.com/">Twitter</a></div>
+            </div>
+        </footer>
+    </div>
+<script src="../../Script/script.js"></script>
+</body>
+</html>
